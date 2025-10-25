@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Society Needs — Local Home & Personal Services</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <div class="header-top">
+        <div class="logo">
+          <img src="img/logo.png" alt="Society Needs Logo" class="logo-img">
+          <span>Society <strong>Needs</strong></span>
+        </div>
+
+        <nav class="primary-nav">
+          <a href="#" class="nav-link">About Us</a>
+          <a href="#" class="nav-link">Contact Us</a>
+        </nav>
+
+        <div class="header-buttons">
+          <button class="btn-outline">Log In</button>
+          <button class="btn-accent">Sign Up</button>
+        </div>
+      </div>
+
+      <div class="header-search">
+        <select class="location-select" aria-label="Select location for services">
+          <option value="kolkata">📍 Kolkata</option>
+          <option value="mumbai">📍 Mumbai</option>
+          <option value="delhi">📍 Delhi</option>
+          <option value="bangalore">📍 Bangalore</option>
+        </select>
+
+        <input type="search" placeholder="🔍 Search for services (e.g. plumber, nurse, cleaning)..."
+          aria-label="Search for services">
+        <button class="btn-search" type="submit">Search</button>
+      </div>
+    </header>
+
+    <section class="how-it-works hidden">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>1. Choose Your Location</p>
+        </div>
+        <div class="step">
+          <i class="fas fa-search"></i>
+          <p>2. Select a Service</p>
+        </div>
+        <div class="step">
+          <i class="fas fa-calendar-check"></i>
+          <p>3. Book & Relax!</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="categories-row hidden" role="list">
+      <div class="cat" role="listitem">🧹 Cleaning</div>
+      <div class="cat" role="listitem">❄️ AC Repair</div>
+      <div class="cat" role="listitem">🩺 Nurse</div>
+      <div class="cat" role="listitem">👩‍🧹 Maid</div>
+      <div class="cat" role="listitem">🧊 Fridge Repair</div>
+      <div class="cat" role="listitem">🚽 Toilet Repair</div>
+      <div class="cat" role="listitem">🌿 Garden Cleaning</div>
+      <div class="cat" role="listitem">👴 Senior Citizen Care</div>
+      <div class="cat" role="listitem">👨🏻‍⚕️ Doctor</div>
+      <div class="cat" role="listitem">👷🏽‍♂️ Electrician</div>
+      <div class="cat" role="listitem">🏠 Home Decoration</div>
+      <div class="cat" role="listitem">👨🏼‍🍳 Caterer</div>
+      <div class="cat" role="listitem">💇🏻‍♂️ Barber</div>
+      <div class="cat" role="listitem">👨🏻‍🏫 Home Tutor</div>
+      <div class="cat" role="listitem">👱🏾‍♂️ Mason</div>
+      <div class="cat" role="listitem">👷🏽‍♂️ Plumber</div>
+    </div>
+
+    <section class="trending-services hidden">
+      <h2>🔥 Trending Services This Week</h2>
+      <div class="trending-cards">
+        <div class="card">
+          <img src="img/electrician.jpg" alt="Electrician Service" loading="lazy">
+          <div class="body">
+            <strong>Emergency Electrician</strong>
+            <p>Quick fix for power trips & wiring issues.</p>
+            <div class="price-row"><span>From ₹249</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/homecleaning.jpeg" alt="Deep Home Cleaning" loading="lazy">
+          <div class="body">
+            <strong>Deep Home Cleaning - Festive Offer</strong>
+            <p>Complete 4-room cleaning and sanitation.</p>
+            <div class="price-row"><span>From ₹499</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/Acrepair.jpg" alt="AC Service & Gas Refill" loading="lazy">
+          <div class="body">
+            <strong>Complete AC Servicing</strong>
+            <p>Full-service checkup, cleaning, and gas check.</p>
+            <div class="price-row"><span>From ₹499</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+      </div>
+      <button class="btn-outline view-all-btn">View All Services</button>
+    </section>
+
+    <section class="services">
+      <h2>All Services</h2>
+      <div class="service-grid hidden">
+        <div class="card"><img src="img/homecleaning.jpeg" alt="Deep Home Cleaning" loading="lazy">
+          <div class="body"><strong>Deep Home Cleaning</strong>
+            <p>Complete 4-room cleaning and sanitation by professionals.</p>
+            <div class="price-row"><span>From ₹499</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/Acrepair.jpg" alt="AC Repair" loading="lazy">
+          <div class="body"><strong>AC Repair</strong>
+            <p>Diagnostic, component fix, and gas refill (if needed).</p>
+            <div class="price-row"><span>From ₹399</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/homenurse.jpeg" alt="Nurse Service" loading="lazy">
+          <div class="body"><strong>Home Nurse</strong>
+            <p>Certified nurses for patient care and medical support at home.</p>
+            <div class="price-row"><span>From ₹799</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/Home made.webp" alt="House Maid" loading="lazy">
+          <div class="body"><strong>Home Maid</strong>
+            <p>Trusted and experienced maid for home care</p>
+            <div class="price-row"><span>From ₹699 </span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/Fridge reapair.jpg" alt="Fridge Repair" loading="lazy">
+          <div class="body"><strong>Fridge Repair</strong>
+            <p>Repair and service refrigerators.</p>
+            <div class="price-row"><span>From ₹349 </span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/Toilate repair.jpg" alt="Toilet Repair" loading="lazy">
+          <div class="body"><strong>Toilet Repair</strong>
+            <p>Plumbing and bathroom repair services.</p>
+            <div class="price-row"><span>From ₹299</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/gardene cleaning.jpg" alt="Garden Cleaning" loading="lazy">
+          <div class="body"><strong>Garden Cleaning</strong>
+            <p>Lawn and garden maintenance</p>
+            <div class="price-row"><span>From ₹499 </span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/seniorcare.jpg" alt="Senior Citizen Care" loading="lazy">
+          <div class="body"><strong>Senior Citizen Care</strong>
+            <p>Attentive care for elderly at home.</p>
+            <div class="price-row"><span>From ₹799 </span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/Doctor.jpg" alt="Doctor Home Visit" loading="lazy">
+          <div class="body"><strong>Doctor</strong>
+            <p>Home doctor visit for health checkups.</p>
+            <div class="price-row"><span>From ₹699 </span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/electrician.jpg" alt="Electrician Service" loading="lazy">
+          <div class="body"><strong>Electrician</strong>
+            <p>Electrical repairs and installations.</p>
+            <div class="price-row"><span>From ₹199</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/home decoration.webp" alt="Home decoration" loading="lazy">
+          <div class="body"><strong>Home Decoration</strong>
+            <p>Interior and home decor services.</p>
+            <div class="price-row"><span>From ₹5999</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/caterer.jpg" alt="Caterer Service" loading="lazy">
+          <div class="body"><strong>Caterer</strong>
+            <p>Food services for events and parties.</p>
+            <div class="price-row"><span>From ₹399 </span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/barber.jpg" alt="Barber Service" loading="lazy">
+          <div class="body"><strong>Barber</strong>
+            <p>Haircut and grooming at home.</p>
+            <div class="price-row"><span>From ₹299</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/home tutor.jpg" alt="Home Tutor Service" loading="lazy">
+          <div class="body"><strong>Home Tutor</strong>
+            <p>Personalized tutoring for students.</p>
+            <div class="price-row"><span>From ₹299</span><button class="cta">Book Now</button></div>
+          </div>
+
+        </div>
+        <div class="card"><img src="img/Mason.jpg" alt="Mason Service" loading="lazy">
+          <div class="body"><strong>Mason</strong>
+            <p>Construction and repair work services.</p>
+            <div class="price-row"><span>From ₹499</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+        <div class="card"><img src="img/Plumber.jpg" alt="Plumber Service" loading="lazy">
+          <div class="body"><strong>Plumber</strong>
+            <p>Fix your problem with our best plumbers</p>
+            <div class="price-row"><span>From ₹499</span><button class="cta">Book Now</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer hidden">
+      <div class="footer-content">
+
+        <div class="footer-column footer-info">
+          <h4 class="footer-title">Society Needs</h4>
+          <p class="footer-tagline">Connecting needs with verified providers.</p>
+          <div class="footer-guarantees">
+            <span><i class="fas fa-check-circle"></i> **Verified Providers**</span>
+            <span><i class="fas fa-shield-alt"></i> **Safe Payments**</span>
+            <span><i class="fas fa-headset"></i> **24/7 Support**</span>
+          </div>
+          <p class="footer-copyright">© 2025 Society Needs. All rights reserved.</p>
+        </div>
+
+        <div class="footer-column footer-links">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column footer-links">
+          <h4 class="footer-title">Resources</h4>
+          <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Provider Portal</a></li>
+            <li><a href="#">Community Guidelines</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column footer-socials">
+          <h4 class="footer-title">Follow Us</h4>
+          <div class="socials">
+            <a href="#" target="_blank" aria-label="Global Site"><i class="fas fa-globe"></i></a>
+            <a href="#" target="_blank" aria-label="Email Us"><i class="fas fa-envelope"></i></a>
+            <a href="#" target="_blank" aria-label="Call Us"><i class="fas fa-phone"></i></a>
+            <a href="#" target="_blank" aria-label="Facebook Page"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  </div>
+  <button class="float-btn" aria-label="Quick Book Service">💬 Book Service</button>
+  <div class="modal" id="bookingModal">
+    <div class="modal-content"> <button class="close-btn" id="closeModal">×</button>
+      <h2>Book a Service</h2> <input type="text" id="name" placeholder="Your Name" required> <select id="serviceType"
+        aria-label="Select Service Type">
+        <option>Cleaning</option>
+        <option>Maid</option>
+        <option>AC Repair</option>
+        <option>Fridge Repair</option>
+        <option>Toilet Repair</option>
+        <option>Garden Cleaning</option>
+        <option>Senior Care</option>
+        <option>Nurse</option>
+        <option>Other</option>
+      </select> <input type="text" id="location" placeholder="Location" required> <input type="tel" id="phone"
+        placeholder="Phone Number" required> <button id="submitBooking">Confirm Booking</button>
+      <div class="success-message" id="successMsg">✅ Booking confirmed! We'll contact you soon.</div>
+    </div>
+  </div>
+
+  <script>
+    // Intersection Observer for Scroll Reveal Effect
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((el) => observer.observe(el));
+
+
+    // --- Modal/Floating Button Logic ---
+    const modal = document.getElementById('bookingModal');
+    const closeModal = document.getElementById('closeModal');
+    const submitBooking = document.getElementById('submitBooking');
+    const successMsg = document.getElementById('successMsg');
+
+    document.querySelector('.float-btn').addEventListener('click', () => {
+      modal.classList.add('active');
+    });
+
+    closeModal.addEventListener('click', () => {
+      modal.classList.remove('active');
+      successMsg.classList.remove('show');
+    });
+
+    submitBooking.addEventListener('click', (e) => {
+      e.preventDefault();
+      successMsg.classList.add('show');
+      setTimeout(() => {
+        modal.classList.remove('active');
+        successMsg.classList.remove('show');
+      }, 2000);
+    });
+  </script>
+</body>
+
+</html>
